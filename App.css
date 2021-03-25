@@ -1,0 +1,107 @@
+
+
+.ai{text-align: center; font-size:40px; color: indigo;
+}
+img{
+  width:264px;
+  margin-right:-10px;
+  padding:-10px;
+}
+.abour{
+  display: grid;
+  grid-template-columns:20% 25% 10% 25% 15% 10%;
+  color: darkred;
+}
+.zz{
+  color: darkred;
+  background-color: tomato;
+  margin-top:20px;
+  }
+input{
+  width:500px;
+  height:25px;
+  border-radius:5px;
+}
+button{
+  height:30px;
+  width:100px;
+  border-radius:5px;
+}
+
+ul{
+  text-align: center;
+  /*color:darkgreen;*/
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top:15px;
+font-size:25px;
+}
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {width:350px;
+  height: 40vmin;
+  pointer-events: none;
+  margin-left:470px;
+  color: transparent;
+  
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 1280px)
+{
+ body{background-color:gold;}  
+ .abour{
+  display:block;
+  margin-right:250px;
+  
+}  
+.abour1{
+  margin-top:-751px ;
+  margin-left:200px;
+}
+img{width:200px;
+height:125px;
+padding: 10px;
+}
+.App-logo {width:350px;
+  height: 40vmin;
+  pointer-events: none;
+  margin-left:50px;
+ 
+  
+
+}
+input{width:350px;}
+}
